@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
