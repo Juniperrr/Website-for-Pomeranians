@@ -5,7 +5,6 @@ const fs = require('fs');
 
 app.use(webby.static(path.join(__dirname, '..', 'public')));
 
-
 app.get('/', function(req, res) {
     fs.readFile(path.join(__dirname, '..', 'public/index.html'), (err, data) => {
         if (err) {
