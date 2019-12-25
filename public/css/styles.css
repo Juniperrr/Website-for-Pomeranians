@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    background: url(../img/background.jpg) repeat;
+}
+
+img {
+    border-radius: 10px;
+    height: 400px;
+    padding: 10px;
+}
